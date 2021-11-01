@@ -1,0 +1,1 @@
+for dir in */; do echo $(cd "$dir"; filename="$(ls)"; converttoico "$(pwd)/${filename}"; filedel="$(echo "${filename}" | tr '\n' ' ')"; delfil="$(echo ${filedel} | cut -d " " -f2)"; filde="$(echo ${delfil} | cut -d ")" f1)";rm "$(pwd)/${delfil}"; cd ..); done
