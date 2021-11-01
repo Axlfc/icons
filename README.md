@@ -1,4 +1,4 @@
-# Holds a fold structure with .ico files we presave via
+# Holds a fold structure with .ico files we presave images via program-icons
 <code>source script.sh</code>
 ## to the path containg all program folders with .svg (or other) type of file
 <code>cd user</code></br>
